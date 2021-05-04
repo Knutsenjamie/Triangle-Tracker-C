@@ -4,21 +4,22 @@ using Triangle;
 namespace Triangle.Tests
 {
   [TestClass]
-  public class TriangleTrackerTests
+  public class IsocelesTriangleTests
   {
     [TestMethod]
-    public void IsIsosceles_SideOneEqualToSideTwo_True()
+    public void IsIsoscelesTriangle_TwoSidesAreEqual_True()
     {
-      Triangle testIsocelesTriangle = new Triangle();
-      Assert.AreEqual(true, testIsocelesTriangle.IsTriangle(2, 2));
+
+      IsocelesTriangle testIsocelesTriangle = new IsocelesTriangle();
+      Assert.AreEqual(true, testIsocelesTriangle.IsIsocelesTriangle(2, 2, 1));
     }
   }
 }
 
-{
+// {
   // any necessary logic to prep for test; instantiating new classes, etc.
-  Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
-}
+  // Assert.AreEqual(EXPECTED RESULT ie .true , CODE TO TEST// our method?// );
+// }
 
 // Scalene All sides are different
 // Equilateral All sides are equal

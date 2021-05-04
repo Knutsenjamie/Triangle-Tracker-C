@@ -1,45 +1,20 @@
-using System;
-using System.Collections.Generic;
-
-namespace Triangle
+namespace Triangle 
 {
-  public class Triangle
+  public class IsocelesTriangle // should match file name - Well rename file later
   {
-    static void Main()
+    public bool IsIsocelesTriangle(int side1, int side2, int side3)
     {
-      Console.WriteLine("Please enter in a number for side 1");
-      string side1 = Console.ReadLine();
-      try
+      if (side1 == side2 || side2 == side3 || side3 == side1)
       {
-        int intSide1 = int.Parse(side1);
+        return true;
       }
-      catch (FormatException e)
+        else
       {
-        Console.WriteLine("Please enter in an integer");
-        Main();  
-      }
-      Console.WriteLine("Please enter in a number for side 2");
-      string side2 = Console.ReadLine();
-      try
-      {
-        int intSide2 = int.Parse(side2);
-      }
-      catch (FormatException e)
-      {
-        Console.WriteLine("Please enter in an integer");
-        Main();  
-      }
-      Console.WriteLine("Please enter in a number for side 3");
-      string side3 = Console.ReadLine();
-      try
-      {
-        int intSide3 = int.Parse(side3);
-      }
-      catch (FormatException e)
-      {
-        Console.WriteLine("Please enter in an integer");
-        Main();  
+        return false;
       }
     }
-  } 
+  }
 }
+
+
+
