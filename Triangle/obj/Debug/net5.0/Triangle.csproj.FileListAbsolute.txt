@@ -1,0 +1,15 @@
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/bin/Debug/net5.0/Triangle.deps.json
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/bin/Debug/net5.0/Triangle.runtimeconfig.json
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/bin/Debug/net5.0/Triangle.runtimeconfig.dev.json
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/bin/Debug/net5.0/Triangle.dll
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/bin/Debug/net5.0/ref/Triangle.dll
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/bin/Debug/net5.0/Triangle.pdb
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.csprojAssemblyReference.cache
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.AssemblyInfoInputs.cache
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.AssemblyInfo.cs
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.csproj.CoreCompileInputs.cache
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.dll
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/ref/Triangle.dll
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.pdb
+/Users/jamieknutsen/Desktop/Triangle-Tracker-C/Triangle/obj/Debug/net5.0/Triangle.genruntimeconfig.cache
