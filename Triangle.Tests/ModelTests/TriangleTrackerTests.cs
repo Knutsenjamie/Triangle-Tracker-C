@@ -30,7 +30,7 @@ namespace Triangle.Tests
     public void IsScaleneTriangle_AllSidesAreDifferent_True()
     {
       ScaleneTriangle testScaleneTriangle = new ScaleneTriangle();
-      Assert.AreEqual(true, testScaleneTriangle.IsScaleneTriangle(5, 4, 4));
+      Assert.AreEqual(true, testScaleneTriangle.IsScaleneTriangle(5, 4, 6));
     }
   } 
 }
