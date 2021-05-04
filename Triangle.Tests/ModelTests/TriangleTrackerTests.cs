@@ -20,7 +20,7 @@ namespace Triangle.Tests
     public void IsEquilateralTriangle_AllSidesAreEqual_True()
     {
       EquilateralTriangle testEquilateralTriangle = new EquilateralTriangle();
-      Assert.AreEqual(true, testEquilateralTriangle.IsEquilateralTriangle(2, 2, 1));
+      Assert.AreEqual(true, testEquilateralTriangle.IsEquilateralTriangle(2, 2, 2));
     }
   }
 }
