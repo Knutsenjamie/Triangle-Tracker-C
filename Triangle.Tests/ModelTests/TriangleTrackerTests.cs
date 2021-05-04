@@ -9,9 +9,18 @@ namespace Triangle.Tests
     [TestMethod]
     public void IsIsoscelesTriangle_TwoSidesAreEqual_True()
     {
-
       IsocelesTriangle testIsocelesTriangle = new IsocelesTriangle();
       Assert.AreEqual(true, testIsocelesTriangle.IsIsocelesTriangle(2, 2, 1));
+    }
+  }
+  [TestClass]
+  public class IsEquilateralTriangleTests
+  {
+    [TestMethod]
+    public void IsEquilateralTriangle_AllSidesAreEqual_True()
+    {
+      EquilateralTriangle testEquilateralTriangle = new EquilateralTriangle();
+      Assert.AreEqual(true, testEquilateralTriangle.IsEquilateralTriangle(2, 2, 1));
     }
   }
 }
