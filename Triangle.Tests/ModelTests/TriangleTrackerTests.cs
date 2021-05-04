@@ -23,6 +23,16 @@ namespace Triangle.Tests
       Assert.AreEqual(true, testEquilateralTriangle.IsEquilateralTriangle(2, 2, 2));
     }
   }
+  [TestClass]
+  public class ScaleneTriangleTests
+  {
+    [TestMethod]
+    public void IsScaleneTriangle_AllSidesAreDifferent_True()
+    {
+      ScaleneTriangle testScaleneTriangle = new ScaleneTriangle();
+      Assert.AreEqual(true, testScaleneTriangle.IsScaleneTriangle(5, 4, 4));
+    }
+  } 
 }
 
 // {
